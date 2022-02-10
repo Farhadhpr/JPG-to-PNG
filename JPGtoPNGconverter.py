@@ -19,4 +19,4 @@ for filename in os.listdir(image_folder):
 	img = Image.open(f'./{image_folder}{filename}')
 	clean_name = os.path.splitext(filename)
 	img.save(f'./{output_folder}{clean_name[0]}.png', 'png')
-	print('This is on littlefeature branch!')	
+	print('empty')	
