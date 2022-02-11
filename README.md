@@ -1,1 +1,1 @@
-# background-generator
+# JPG to PNG
