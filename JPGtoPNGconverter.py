@@ -20,3 +20,4 @@ for filename in os.listdir(image_folder):
 	clean_name = os.path.splitext(filename)
 	img.save(f'./{output_folder}{clean_name[0]}.png', 'png')
 	print('ALL DONE!!!')	
+
